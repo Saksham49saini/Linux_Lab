@@ -1,6 +1,6 @@
 # Basic linux commands 
 ```bash
-$pwd
+pwd
 ```
 
 output example=
@@ -14,5 +14,5 @@ output example=
 The ls command in linux
 
 ```bash
-$ls-a
+ls-a
 ```
