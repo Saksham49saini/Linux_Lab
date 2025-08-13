@@ -9,23 +9,17 @@ output example=
 
 /d/upes/Linux_lab
 ```
+### `ls` – List Directory Contents
 
-## ls – List Directory Contents
-
-The `ls` command is used to list files and directories in Linux.
-
-## Basic Usage
+Lists files and folders in the current directory.
 
 ```bash
 ls
-## Common Options
+```
 
-- `ls -l`  
-  Detailed list including permissions, ownership, file size, and modified date.
+* `ls -l` → Detailed list (permissions, size, date)
+* `ls -a` → Shows hidden files (those starting with `.`)
+* `ls -la` → Combined
 
-- `ls -a`  
-  Shows all files, including hidden ones (those starting with a \`.\`).
+---
 
-- `ls -la`  
-  Combination of \`-l\` and \`-a\` to show detailed list including hidden files.
-" > ls-command.md
