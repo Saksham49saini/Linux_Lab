@@ -9,6 +9,8 @@ output example=
 
 /d/upes/Linux_lab
 ```
+![alt txt](pwd.png)
+
 ### `ls` – List Directory Contents
 
 Lists files and folders in the current directory.
@@ -22,6 +24,8 @@ ls
 * `ls -la` → Combined
 
 ---
+![alt txt](ls.png)
+
 ### `cd` – Change Directory
 
 Moves into a directory.
@@ -40,6 +44,8 @@ cd ~                # Go to home directory
 ```
 
 ---
+![alt txt](cd.png)
+
 ## ✅ 2. **File and Directory Management**
 
 ### `mkdir` – Make Directory
@@ -51,6 +57,7 @@ mkdir new_folder
 ```
 
 ---
+![alt txt](mkdir.png)
 
 ### `touch` – Create File
 
@@ -89,6 +96,7 @@ mv oldname.txt newname.txt
 rm file.txt          # Delete file
 rm -r folder_name    # Delete folder (recursively)
 ```
+![alt txt](mv_rm.png)
 
 ⚠️ **Be careful!** There is no undo.
 
@@ -105,6 +113,7 @@ cat file.txt
 ```
 
 ---
+![alt txt](cat.png)
 
 ### `nano` – Edit Files in Terminal
 
@@ -171,6 +180,7 @@ find . -name "*.txt"
 🔍 Finds all `.txt` files in current folder and subfolders.
 
 ---
+![alt txt](find.png)
 
 ### `grep` – Search Inside Files
 
@@ -181,6 +191,7 @@ grep "hello" file.txt
 🔍 Searches for the word `hello` inside `file.txt`.
 
 ---
+![alt txt](grep.png)
 
 ## ✅ 6. **Helpful Shortcuts**
 
