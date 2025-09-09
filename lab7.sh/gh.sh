@@ -1,18 +1,13 @@
-✅ Script: starter_kit.sh
-
 #!/bin/bash
 # starter_kit.sh – Build a starter project environment automatically
 
-# --- Setup Section ---
 base_dir="project"
 sub_dirs=("scripts" "docs" "data")
 
 echo "🚀 Creating Starter Kit..."
 
-# Create main project directory
 mkdir -p "$base_dir"
 
-# Create sub-directories with README.md
 for dir in "${sub_dirs[@]}"; do
     mkdir -p "$base_dir/$dir"
     readme="$base_dir/$dir/README.md"
@@ -23,7 +18,6 @@ for dir in "${sub_dirs[@]}"; do
     echo "✅ Created: $base_dir/$dir (with README.md)"
 done
 
-# Final README at project root
 root_readme="$base_dir/README.md"
 if [ ! -f "$root_readme" ]; then
     echo "# 🚀 Project Starter Kit" > "$root_readme"
@@ -31,17 +25,3 @@ if [ ! -f "$root_readme" ]; then
 fi
 
 echo "🎉 Starter Kit Ready!"
-
-🔹 Make it executable:
-
-chmod +x starter_kit.sh
-
-
----
-
-
-
-![alt text](./images/kit.png)
-
-
-![alt text](./images/tik.png)

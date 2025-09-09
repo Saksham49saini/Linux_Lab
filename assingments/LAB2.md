@@ -43,7 +43,9 @@ Number: 5
 
 
 ---
-
+```
+![images](./images/nm.png)
+![image](./images/num.png)
 📜 Script 2: array_loop.sh
 
 🎯 Purpose
@@ -62,7 +64,7 @@ fruits=("Apple" "Banana" "Mango")   # 👈 Define an array with 3 elements
 
 for fruit in "${fruits[@]}"   # 👈 Loop through all array elements
 do
-    echo "I like $fruit"      # 👈 Print each fruit
+    echo "fruit = $fruit"      # 👈 Print each fruit
 done
 
 
@@ -71,11 +73,13 @@ done
 ▶️ Example Run
 
 $ bash array_loop.sh
-I like Apple
-I like Banana
-I like Mango
+fruit =Apple
+fruit =Banana
+fruit =cherry
 
 🍏🍌🥭 Simple yet powerful! Each array element is processed automatically in the loop.
 
 
 ---
+![image](./images/ho.png)
+![image](./images/oh.png)

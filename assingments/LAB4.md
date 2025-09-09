@@ -6,7 +6,56 @@
 # --- Setup Section ---
 backup_dir="backup"
 
-# Create backup folder if it doesn’t exist
+# Create backup folder ---
+
+✅ Script: starter_kit.sh
+
+#!/bin/bash
+# starter_kit.sh – Build a starter project environment automatically
+
+# --- Setup Section ---
+base_dir="project"
+sub_dirs=("scripts" "docs" "data")
+
+echo "🚀 Creating Starter Kit..."
+
+# Create main project directory
+mkdir -p "$base_dir"
+
+# Create sub-directories with README.md
+for dir in "${sub_dirs[@]}"; do
+    mkdir -p "$base_dir/$dir"
+    readme="$base_dir/$dir/README.md"
+    if [ ! -f "$readme" ]; then
+        echo "# 📄 README for $dir folder" > "$readme"
+        echo "This folder is part of the starter kit." >> "$readme"
+    fi
+    echo "✅ Created: $base_dir/$dir (with README.md)"
+done
+
+# Final README at project root
+root_readme="$base_dir/README.md"
+if [ ! -f "$root_readme" ]; then
+    echo "# 🚀 Project Starter Kit" > "$root_readme"
+    echo "This is the root README for your new project." >> "$root_readme"
+fi
+
+echo "🎉 Starter Kit Ready!"
+
+🔹 Make it executable:
+
+chmod +x starter_kit.sh
+
+
+---
+
+
+
+![alt text](./images/kit.png)
+
+
+![alt text](./images/tik.png)
+```
 mkdir -p "$backup_dir"
 
 # --- Timestamp Section ---
@@ -38,7 +87,8 @@ chmod +x backup.sh
 
 
 ---
-
+-
+![alt text](./images/bk.png)
 📘 LAB5.md
 
 # 📂 LAB5 – File & Backup Automation
@@ -60,14 +110,13 @@ Automate file management by backing up all `.txt` files in the current directory
 5. **Show Results** → Prints messages for each copied file, or warning if no `.txt` found.  
 
 ---
+![alt text](./images/bk.png)
 
+![alt text](./images/kb.png)
 ## 🖥 Example Run
 
-### ▶ Step 1: Create Sample Files
 
-$ echo "Hello" > a.txt $ echo "Backup script test" > notes.txt $ echo "Assignment data" > lab.txt
-
-### ▶ Step 2: Run Script
+### ▶ Step 1:Run Script
 
 $ ./backup.sh 🔍 Searching for .txt files in current directory... ✅ Backed up: a.txt → backup/a_20250908_142501.txt ✅ Backed up: notes.txt → backup/notes_20250908_142501.txt ✅ Backed up: lab.txt → backup/lab_20250908_142501.txt 🎉 Backup completed! (3 files copied)
 
@@ -76,3 +125,5 @@ $ ./backup.sh 🔍 Searching for .txt files in current directory... ✅ Backed u
 $ ls backup/ a_20250908_142501.txt notes_20250908_142501.txt lab_20250908_142501.txt
 
 ---
+```
+![image](./images/kbk.png)

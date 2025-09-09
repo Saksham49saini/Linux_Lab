@@ -70,9 +70,10 @@ Here’s the complete process I followed 👇
 
 
 ### 🖼️ Screenshot of Ubuntu Desktop
-![Ubuntu Desktop](kl.png)
+![Ubuntu Desktop](./images/kl.png)
 
 ---
+```
 
 ## 🧪 Basic Linux System Information
 
@@ -86,42 +87,44 @@ I ran the following basic Linux commands in the terminal to get system info.
 
 ```bash
 lsb_release -a
-
+```
 📷 Output:
-![file.txt](kj-a.png) 
+![image](./images/kj-a.png) 
 
 
 
-
+```
 
 🖥️ 2. uname -a
 
 Purpose: Shows detailed information about the kernel.
 
 uname -a
-
+```
 📷 Output:
 
 
-![image](./assignments/uname-a.png)
-
+![image](./images/uname-a.png)
+```
 
 🧮 3. df -h
 
 Purpose: Displays disk space usage in human-readable format.
 
 df -h
-
+```
 📷 Output:
-![Ubuntu Desktop](hi.png)
+![Ubuntu Desktop](./images/hi.png)
 
-
+```
 
 🧠 4. free -m
 
 Purpose: Shows memory usage in MB.
 
 free -m
+```
 📷 Output:
-![Ubuntu Desktop](hu.png)
+![Ubuntu Desktop](./images/hu.png)
+
 

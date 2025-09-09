@@ -1,102 +1,55 @@
-📘 Final Creative LAB3.md
+# modifying script
 
-# 🚀 LAB3 – Modify the Existing Script  
+## original script
 
----
+```
+#!/bin/bash        ---shebang
+a="saksham saini"           ---taking vansh in the variable a
+b=40                 ---taking 40 in the variable b
 
-## 📄 Original Script: `print_numbers.sh`
-### 🔹 Purpose
-- Prints numbers from **1 to 10**, one per line.  
-
-### 🔹 Behavior
-
-Output → 1 2 3 4 5 6 7 8 9 10
-
-### ⚠ Limitations
-- Range is **fixed** (1–10).  
-- No **user input** (always same output).  
-- No **error handling**.  
-
----
-
-## 🔧 Enhanced Script: `enhanced_numbers.sh`
-
-### ✨ New Features
-1. 📝 User provides **start, end, and step values**.  
-2. 🔒 Validation:  
-   - Step must be **positive**.  
-   - Inputs must be **integers**.  
-3. 🎯 Dynamic → works with any valid range.  
-4. 💡 Friendly error messages.  
-
-### 🖥 Script Code
-```bash
-#!/bin/bash
-# enhanced_numbers.sh - Prints numbers from start to end with a step value
-
-read -p "Enter start value: " start
-read -p "Enter end value: " end
-read -p "Enter step value: " step
-
-if ! [[ "$start" =~ ^-?[0-9]+$ && "$end" =~ ^-?[0-9]+$ && "$step" =~ ^[0-9]+$ ]]; then
-    echo "❌ Error: All inputs must be integers, and step must be positive."
-    exit 1
+if [ $a="saksham saini" ] && [ $b -gt 18 ]; then      ---checking conditions and using an opreator and(&&)
+    echo " you are adult "                     ---printing you are adult
 fi
 
-if [ "$step" -le 0 ]; then
-    echo "❌ Error: Step must be greater than 0."
-    exit 1
+if [ $a=" akshat" ] && [ $b -lt 18 ]; then       ---checking conditions and using an opreator and(&&)
+    echo "you are minor"                         --- printing you are minor
 fi
 
-echo "✅ Printing numbers from $start to $end with step $step:"
-for ((i=start; i<=end; i+=step))
-do
-    echo "$i"
-done
+```
+![Image](./images/rh.png)
+![Image](./images/po.png)
 
+##  modified script
 
----
+```
+#!/bin/bash 
+# prompt user for input
 
-🎬 Example Runs
+read -p "enter your name: " name      --- taking name from the user
+read -p "enter your age: " age        --- taking age from the user
 
-▶ Example 1: Normal Case
+if [ $name="sehajpreet singh" ] && [ $age -gt 18 ]; then    --- checking conditions with if and opreator and(&&)     
+    echo " you are adult "                     --- printing (you are adult)
+fi
 
-$ ./enhanced_numbers.sh
-Enter start value: 1
-Enter end value: 10
-Enter step value: 2
-✅ Printing numbers from 1 to 10 with step 2:
-1
-3
-5
-7
-9
+if [ $name=" akshat" ] && [ $age -lt 18 ]; then  ----  checking conditions with if and opreator and(&&)      
+    echo "you are minor"                         ---- printing (you are minor)
+fi
+```
+## the difference between the original and modified script is that in the first one we check for fixed value and in the next case we check for all cases .
 
+![Image](./images/we.png)
 
----
+## checking with differnt examples
+#### output is :
+![Image](./images/is.png)
 
-▶ Example 2: Different Range
+### Q1=differnce between $1,$@ and $# in bash?
 
-$ ./enhanced_numbers.sh
-Enter start value: 5
-Enter end value: 20
-Enter step value: 5
-✅ Printing numbers from 5 to 20 with step 5:
-5
-10
-15
-20
+Ans-- 0 $1= this refers to positional parameters
+         $@= represents all arguments passed to the script
+         $#= returns the number of arguments passed
 
-
----
-
-▶ Example 3: Invalid Step
-
-$ ./enhanced_numbers.sh
-Enter start value: 1
-Enter end value: 10
-Enter step value: -3
-❌ Error: Step must be greater than 0.
-
-
----
+### Q2=what does exit 1 mean in the script
+    
+Ans-- general error (something went wrong) Or exit with error.

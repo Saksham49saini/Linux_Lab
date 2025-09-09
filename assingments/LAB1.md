@@ -97,7 +97,6 @@ Be careful—there’s no recycle bin here!
 ![Image](./images/a.png)
 
 ---
-![filr.txt]()
 🎯 Final Words
 
 Linux is like a superpower tool – these commands are just the beginning.
@@ -105,9 +104,9 @@ Mastering them will make you feel like a true terminal wizard 🧙‍♂️!
 
 ```
 
-![Image C](./c.png)
-![Image M](m.png)
-![Image R](r.png)
-![Image S](./s.png)
+![Image C](./images/c.png)
+![Image M](./images/m.png)
+![Image R](./images/r.png)
+![Image S](./images/s.png)
 
-![Image T](t.png)
+![Image T](./images/t.png)
