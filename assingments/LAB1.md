@@ -94,6 +94,7 @@ rm file.txt
 ⚠️ Deletes a file permanently.
 Be careful—there’s no recycle bin here!
 
+![Image](./images/a.png)
 
 ---
 ![filr.txt]()
@@ -102,8 +103,9 @@ Be careful—there’s no recycle bin here!
 Linux is like a superpower tool – these commands are just the beginning.
 Mastering them will make you feel like a true terminal wizard 🧙‍♂️!
 
-![Image A](a.png)
-![Image C](c.png)
+```
+
+![Image C](./c.png)
 ![Image M](m.png)
 ![Image R](r.png)
 ![Image S](./s.png)
