@@ -13,7 +13,7 @@ Here’s the complete process I followed 👇
 - VirtualBox provides an easy way to run virtual operating systems.
 
 📸 Screenshot:  
-![VirtualBox Installed](images/vm-1.png)
+![VirtualBox Installed](./images/ubn.png)
 
 ---
 
@@ -22,7 +22,7 @@ Here’s the complete process I followed 👇
 - Downloaded the **latest Ubuntu LTS ISO file** (~3 GB).
 
 📸 Screenshot:  
-![Ubuntu ISO Download](images/vm-2.png)
+![Ubuntu ISO Download](./images/tun.png)
 
 ---
 
@@ -33,7 +33,7 @@ Here’s the complete process I followed 👇
 - Allocated **2 GB RAM** and **20 GB disk** (minimum requirement).
 
 📸 Screenshot:  
-![VM Creation](images/vm-3.png)
+![VM Creation](./images/ur.png)
 
 ---
 
@@ -42,7 +42,7 @@ Here’s the complete process I followed 👇
 - This makes VirtualBox boot from the Ubuntu installer.
 
 📸 Screenshot:  
-![ISO Attached](images/vm-4.png)
+![ISO Attached](images/us.png)
 
 ---
 
@@ -53,7 +53,7 @@ Here’s the complete process I followed 👇
 - After a few minutes, installation completed successfully. 🎉
 
 📸 Screenshot:  
-![Ubuntu Installation](images/vm-5.png)
+![Ubuntu Installation](./images/ut.png)
 
 ---
 
@@ -63,8 +63,7 @@ Here’s the complete process I followed 👇
 - Ubuntu desktop appeared inside VirtualBox.
 
 📸 Screenshot:  
-![Ubuntu Desktop](images/vm-6.png)
-
+![Ubuntu Desktop](./images/ut.png)
 ---
 
 
