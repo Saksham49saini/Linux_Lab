@@ -1,4 +1,4 @@
-#process_commands
+##PROCESS_COMMAND
 ```
 1 ps aux
 
@@ -142,6 +142,3 @@ sudo apt install cgroup-tools
 
 ![](qi.png)
 ![](qn.png)
-```
-#THANK_YOU
-```
