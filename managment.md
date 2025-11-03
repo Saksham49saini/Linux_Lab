@@ -187,3 +187,7 @@ echo 3050 | sudo tee /sys/fs/cgroup/cpu/testgroup/cgroup.procs
 | **cgroups**    | Fine-grained resource management       | nice (more powerful)   |
 | **systemd-run**| systemd + cgroups resource management  | nice                   |
 | **schedtool**  | Custom scheduling policies             | nice                   |
+
+thank you
+
+```
