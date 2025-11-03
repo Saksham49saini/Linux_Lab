@@ -172,7 +172,7 @@ echo 100M   | sudo tee /sys/fs/cgroup/memory/testgroup/memory.limit_in_bytes
 ```
 echo 3050 | sudo tee /sys/fs/cgroup/cpu/testgroup/cgroup.procs
 ```
-
+ 
  
 ![alt text](<Screenshot from 2025-09-25 11-39-16.png>)
 
