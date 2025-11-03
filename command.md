@@ -129,3 +129,19 @@ It means the tool isn't installed. Install it using:
 sudo apt install cgroup-tools
 
 ```
+#PRACTICAL_USAEGE
+![](qb.png)
+![](qg.png)
+![](ql.png)
+![](qp.png)
+![](qo.png)
+![](qr.png)
+![](qv.png)
+
+![](qh.png)
+
+![](qi.png)
+![](qn.png)
+```
+#THANK_YOU
+```
