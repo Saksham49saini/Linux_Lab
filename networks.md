@@ -318,7 +318,7 @@ scp file.txt user@192.168.1.10:/home/user/
 
 
 
-thank u
+thank u 
 
 
 
